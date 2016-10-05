@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Functions</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <script>
+        function sayHello(name){
+  document.write('Hello ' + name);
+  document.write("<br/>");
+}
+sayHello('Jeff');
+sayHello('George');
+
+function honk(verb){
+  document.write('Beep, beep! ' + verb);
+  document.write("<br/>");
+}
+honk("move!");
+honk("out of the way!");
+
+function drive(speed){
+  document.write("Vroom! We're going " + speed + " miles per hour!");
+  document.write("<br/>");
+}
+drive(150);
+drive(200);
+
+function washDish(dish){
+  document.write("I'm washing the " + dish);
+  document.write("<br/>");
+}
+washDish('platter');
+washDish('plate');
+
+function createSentence(adjective, noun, place, verb){
+  var madlib = "Always remember to " + verb + " your " + adjective + " " + noun + " before going to " + place + ".";
+  return madlib;
+}
+
+var newSentenceOne = createSentence("blue", "sock", "London", "chase");
+var newSentenceTwo = createSentence("best", "player", "the game", "pick");
+
+document.write(newSentenceOne);
+document.write("<br/>");
+document.write(newSentenceTwo);
+
+function calculateVolume(length, height, width){
+  var volume = length * height * width;
+  return volume;
+}
+
+var volumeOne = calculateVolume(10, 20, 30);
+var volumeTwo = calculateVolume(20, 30, 40);
+document.write("<br/>");
+document.write(volumeOne);
+document.write("<br/>");
+document.write(volumeTwo);    
+    </script>
+</body>
+</html>

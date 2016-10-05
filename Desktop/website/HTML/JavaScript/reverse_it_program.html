@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reverse Function Program</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+<script type="text/javascript">
+
+var greeting = "Hello,";
+var thanks = "thank you";
+var here = "for visiting";
+    
+function rightOrder() {
+    var sentence = greeting + ' ' + thanks + ' ' + here;
+    return sentence;
+}
+    
+function wrongOrder() {
+    var sentence2 = here + ' ' + greeting + ' ' + thanks;
+    return sentence2;
+}
+    
+var sentence = rightOrder();
+var sentence2 = wrongOrder();
+    
+document.write(sentence);
+document.write("<br/>"+"<br/>")
+document.write(sentence2);
+    
+</script>
+</body>
+</html>

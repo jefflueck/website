@@ -1,0 +1,262 @@
+/*
+The MIT License (MIT)
+
+Copyright (c) Mon Apr 25 2016 Jeff Lueck
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORTOR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+*/
+
+/* Personal Website Stylesheet */
+
+* {
+    margin: 0;
+    padding: 0;    
+}
+
+header {
+    text-align: center;
+    font-size: 36px;
+    font-family: Arial, Courier, serif;
+    color: #6a4e00;
+    margin-top: 19px;
+    padding-bottom: 19px;
+}
+
+#border {
+    border-radius: 6px;
+    border: solid 3px black;
+    width: 100%;
+}
+
+
+nav {
+    font-size: 20px;
+    font-family: Noteworthy, Script, cursive;
+    text-decoration: none;
+    text-align: center;
+    align-content: inline;
+    margin-top: 19px;
+}
+
+ul {
+    list-style-type: none;
+    align-content: center;
+    display: inline-flex;
+  
+}
+
+li a {
+    padding: 10px 30px;
+    display: inline-flex;
+    align-content: center;
+    
+}
+
+
+img {
+    align-content: center;
+    margin: auto;
+}
+
+ 
+
+footer {
+    padding-top: 28px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Arial, Courier, serif;
+}
+
+
+.highlight {
+	color: blue;
+    text-decoration: none;
+}
+
+/* Form CSS */
+
+#container {
+	width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+fieldset {
+    padding: 60px;
+    border: solid 3px #6a4e00;
+    background: #545359;
+}
+
+fieldset legend {
+    background: white;
+    padding: 10px;
+    border: solid 1px #aaa;
+    color: #6a4e00;
+    font-family: Noteworthy, Script, cursive;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin: 2px 0 20px;
+    border: solid 3px ;
+    display: block;
+    width: 50%;
+    font-size: 14px;
+    color: #6a4e00;
+    font-family: Arial, Courier, serif;
+    
+}
+
+label {
+    color: #e6e6e6;
+}
+
+#submit {
+    width: 100px;
+    background: #6a4e00;
+    color: #e6e6e6;
+    outline-style: inherit;
+}
+
+#submit:after { 
+    position: relative;
+    top: 1px;
+}
+
+/* End of Form CSS */
+
+a:link {
+    color: black;
+    text-decoration: none; 
+}
+
+a:visited {
+    color: #6a4e00; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #545359; 
+    text-decoration: none; 
+}
+
+/* My Journey & My Blog */
+
+.sub-pages {
+    z-index: 1;
+    background-image: url('images/stockvault-geothermal-soil-texture125985.png');
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+}
+
+header h1 {
+    align-content: center;
+    vertical-align: middle;
+    width: 35%;
+    height: 30%;
+    font-size: 36px;
+    color: black;
+    font-family: Noteworthy, Script, cursive;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+article p {
+    align-content: center;
+    text-align: center;
+    word-wrap: break-word;
+    flex-direction: column;
+    display: -webkit-center;
+    display: center;
+    width: 90%;
+    height: 100%;
+    color: black;
+    font-size: 18px;
+    font-family: Courier New, Courier, monospace;
+    background-color: white;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 15px;    
+}
+
+article {
+    align-content: center;
+    text-align: center;
+    word-wrap: break-word;
+    flex-direction: column;
+    display: center;
+    width: 45%;
+    height: 100%;
+    color: black;
+    font-family: Courier New, Courier, monospace;
+    background-color: white;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 10px 10px;  
+}
+
+article a {
+    font-family: Courier New, Courier, monospace;
+}
+
+.profolio-content {
+	align-content: center;
+    margin: 0 auto;
+    padding: 10px 0 20px 0;
+    
+}
+
+#pro-links nav {
+    list-style-type: none;  
+}
+
+#pro-links ul {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    
+}
+
+#pro-links ul a {
+    font-family: Noteworthy, Script, cursive;
+    font-size: 18px;
+}
+
+#pro-links ul p {
+	font-family: Noteworthy, Script, cursive;
+    font-size: 18px;
+
+}
+
+article h2 {
+    font-family: Noteworthy, Script, cursive;
+    font-size: 26px;
+}
+
+article time{
+    color: #545359;
+    font-size: 17px;
+}
