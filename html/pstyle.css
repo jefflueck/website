@@ -260,3 +260,8 @@ article time {
     color: #545359;
     font-size: 17px;
 }
+
+/* Mobile Friendly */
+@-ms-viewport{
+  width: device-width;
+}
