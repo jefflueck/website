@@ -173,7 +173,7 @@ a:hover {
 header h1 {
     align-content: center;
     vertical-align: middle;
-    width: 35%;
+    width: 40%;
     height: 30%;
     font-size: 36px;
     color: black;
@@ -186,7 +186,7 @@ header h1 {
 article p {
     align-content: center;
     text-align: center;
-    word-wrap: break-word;
+    word-wrap: normal;
     flex-direction: column;
     display: -webkit-center;
     display: center;
@@ -204,10 +204,10 @@ article p {
 article {
     align-content: center;
     text-align: center;
-    word-wrap: break-word;
+    word-wrap: normal;
     flex-direction: column;
     display: center;
-    width: 45%;
+    width: 85%;
     height: 100%;
     color: black;
     font-family: Courier New, Courier, monospace;
@@ -259,9 +259,4 @@ article h2 {
 article time {
     color: #545359;
     font-size: 17px;
-}
-
-/* Mobile Friendly */
-@-ms-viewport{
-  width: device-width;
 }
