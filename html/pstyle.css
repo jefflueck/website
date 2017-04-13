@@ -136,6 +136,13 @@ a:hover {
     text-decoration: none;
 }
 
+/* Portfolio P's */
+
+.portHeaders {
+  font-style: italic;
+  font-size:
+}
+
 /* My Journey & My Blog */
 
 .sub-pages {
@@ -224,8 +231,8 @@ article a {
 
 #pro-links ul p {
 	font-family: Noteworthy, Script, cursive;
-    font-size: 18px;
-
+    font-size: 22px;
+    color: #8B4B36;
 }
 
 article h2 {
