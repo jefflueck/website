@@ -23,7 +23,7 @@ header {
 
 nav {
     font-size: 20px;
-    font-family: Noteworthy, Script, cursive;
+    font-family: 'Handlee', cursive;
     text-decoration: none;
     text-align: center;
     align-content: inline;
@@ -84,7 +84,7 @@ fieldset legend {
     padding: 10px;
     border: solid 1px #aaa;
     color: #6a4e00;
-    font-family: Noteworthy, Script, cursive;
+    font-family: 'Handlee', cursive;
     font-size: 18px;
 }
 
@@ -136,13 +136,6 @@ a:hover {
     text-decoration: none;
 }
 
-/* Portfolio P's */
-
-.portHeaders {
-  font-style: italic;
-  font-size:
-}
-
 /* My Journey & My Blog */
 
 .sub-pages {
@@ -161,7 +154,7 @@ header h1 {
     height: 30%;
     font-size: 36px;
     color: black;
-    font-family: Noteworthy, Script, cursive;
+    font-family: 'Handlee', cursive;
     background-color: white;
     padding: 10px;
     margin: 0 auto;
@@ -178,7 +171,7 @@ article p {
     height: 100%;
     color: black;
     font-size: 18px;
-    font-family: Courier New, Courier, monospace;
+    font-family: Courier, monospace;
     background-color: white;
     margin: 0 auto;
     font-size: 18px;
@@ -194,7 +187,7 @@ article {
     width: 85%;
     height: 100%;
     color: black;
-    font-family: Courier New, Courier, monospace;
+    font-family: Courier, monospace;
     background-color: white;
     margin: 0 auto;
     font-size: 18px;
@@ -202,7 +195,7 @@ article {
 }
 
 article a {
-    font-family: Courier New, Courier, monospace;
+    font-family: Courier, monospace;
 }
 
 .profolio-content {
@@ -225,18 +218,18 @@ article a {
 }
 
 #pro-links ul a {
-    font-family: Noteworthy, Script, cursive;
+    font-family: 'Handlee', cursive;
     font-size: 18px;
 }
 
 #pro-links ul p {
-	font-family: Noteworthy, Script, cursive;
+	  font-family: 'Handlee', cursive;
     font-size: 22px;
     color: #8B4B36;
 }
 
 article h2 {
-    font-family: Noteworthy, Script, cursive;
+    font-family: 'Handlee', cursive;
     font-size: 26px;
 }
 
