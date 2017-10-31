@@ -20,14 +20,17 @@ header {
     width: 100%;
 }
 
-
-nav {
-    font-size: 20px;
+.nav {
+    font-size: 22px;
     font-family: 'Handlee', cursive;
     text-decoration: none;
     text-align: center;
     align-content: inline;
-    margin-top: 19px;
+    padding-top: 3px;
+}
+
+img {
+  margin: 0 auto;
 }
 
 ul {
@@ -45,13 +48,6 @@ li a {
 }
 
 
-img {
-    align-content: center;
-    margin: auto;
-}
-
-
-
 footer {
     padding-top: 28px;
     text-align: center;
@@ -62,7 +58,7 @@ footer {
 
 .highlight {
 	color: blue;
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* Form CSS */
@@ -136,7 +132,7 @@ a:hover {
     text-decoration: none;
 }
 
-/* My Journey & My Blog */
+/* My Journey & My Blog & My Portfolio Pages */
 
 .sub-pages {
     z-index: 1;
@@ -150,7 +146,7 @@ a:hover {
 header h1 {
     align-content: center;
     vertical-align: middle;
-    width: 40%;
+    width: 55%;
     height: 30%;
     font-size: 36px;
     color: black;
