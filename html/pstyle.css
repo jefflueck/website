@@ -30,7 +30,7 @@ header {
 }
 
 img {
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 ul {
@@ -57,14 +57,14 @@ footer {
 
 
 .highlight {
-	color: blue;
-  text-decoration: none;
+    color: blue;
+    text-decoration: none;
 }
 
 /* Form CSS */
 
 #container {
-	width: 600px;
+    width: 600px;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -90,7 +90,7 @@ input[type="email"],
 textarea {
     padding: 10px;
     margin: 2px 0 20px;
-    border: solid 3px ;
+    border: solid 3px;
     display: block;
     width: 50%;
     font-size: 14px;
@@ -195,7 +195,7 @@ article a {
 }
 
 .profolio-content {
-	align-content: center;
+    align-content: center;
     margin: 0 auto;
     padding: 10px 0 20px 0;
 
@@ -219,7 +219,7 @@ article a {
 }
 
 #pro-links ul p {
-	  font-family: 'Handlee', cursive;
+    font-family: 'Handlee', cursive;
     font-size: 22px;
     color: #8B4B36;
 }
