@@ -16,3 +16,4 @@
   * Paragraph of my learning process.
 4. My Blog Page
   * Periodically write a small article about a topic that was current in my growth as a Developer.
+  * Currently not being shown or updated.
