@@ -8,7 +8,7 @@
   * Contact number.
   * Copyright.
   * Developer Name.
-2. Portfoilio Page
+2. Portfolio Page
   * Display work.
   * Show current sites in production.
   * Paragraph of education knowledge
@@ -16,4 +16,5 @@
   * Paragraph of my learning process.
 4. My Blog Page
   * Periodically write a small article about a topic that was current in my growth as a Developer.
+  <!-- ! Not being done at this current time -->
   * Currently not being shown or updated.
